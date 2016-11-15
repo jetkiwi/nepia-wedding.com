@@ -1,0 +1,72 @@
+
+.cfx:after {
+  content: "";
+  clear: both;
+  display: block; }
+
+
+a {
+    text-decoration: none;
+    transition: color 0.2s linear
+}
+
+body {
+    background: #fff;
+    width: 100%;
+    margin: 0 auto;
+}
+
+div#body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+div#header {
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1#title {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+div#container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+div#proposal-button {
+    display: block;
+
+}
+
+
+div#proposal-button a {
+    width: 30%;
+    color: red;
+    border-color: red;
+    border: solid 2px;
+    margin: 0 auto;
+    padding: 10px;
+    display: block;
+    opacity: 0.7;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+
+div#proposal-button a:hover {
+    color: white;
+    border-color: red;
+    background: red;
+}
